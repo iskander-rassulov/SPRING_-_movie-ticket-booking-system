@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Ticket Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <div class="logo">
+        <h1>Movie Booking</h1>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li id="login-link"><a href="login.html">Login</a></li>
+            <li id="logout-link" style="display: none;"><a href="#">Logout</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="slider">
+    <div class="slides-wrapper">
+        <div class="slides">
+
+            <!-- Slide 1: Classic Movies -->
+            <div class="slide">
+                <img src="images/classic_movies.png" alt="Comedy Movies">
+                <div class="slide-genre">Classic Movies</div>
+                <div class="slide-caption">
+                    <p>Relive the golden era of cinema with timeless masterpieces!</p>
+                    <a href="#" class="btn">Explore Classics</a>
+                </div>
+            </div>
+
+            <!-- Slide 2: Anime Movies -->
+            <div class="slide">
+                <img src="images/anime_movies.png" alt="Anime Movies">
+                <div class="slide-genre">Anime Movies</div>
+                <div class="slide-caption">
+                    <p>Discover the world of anime with the best movies!</p>
+                    <a href="#" class="btn">Explore Anime</a>
+                </div>
+            </div>
+
+            <!-- Slide 3: Action Movies -->
+            <div class="slide">
+                <img src="images/action_movies.png" alt="Action Movies">
+                <div class="slide-genre">Action Movies</div>
+                <div class="slide-caption">
+                    <p>Get ready for thrilling action-packed adventures!</p>
+                    <a href="#" class="btn">Explore Action</a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- Slider controls -->
+    <div class="controls">
+        <span class="prev">&#10094;</span>
+        <span class="next">&#10095;</span>
+    </div>
+</section>
+
+<section id="movies">
+    <h2>Available Movies</h2>
+    <div id="movie-list">
+        <!-- Cards for movies will be loaded dynamically -->
+    </div>
+</section>
+
+<footer>
+    <p>© 2024 Movie Ticket Booking. All rights reserved.</p>
+    <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
